@@ -655,8 +655,8 @@ model <- c("llogistic", "lnormal", "llaplace", "weibull",
 colN <- c("etahat","phihat", "alphahat", "lambdahat", "nuhat","nll", "AIC","BIC")
 colnames(breast_par_nll_AIC_BIC) <- paste("",colN)
 rownames(breast_par_nll_AIC_BIC) <- paste("",model)
+# exporting the summarized results
 #write.csv(breast_par_nll_AIC_BIC, "breast_par_nll_AIC_BIC_updated.csv")
-
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
 # Example 2: German breast cancer data , all patients
